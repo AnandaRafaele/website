@@ -6,6 +6,7 @@ _site
 
 lang/*
 !lang/en/
+!lang/pt_br
 
 _data/i18n/*.yml
 !_data/i18n/en.yml
