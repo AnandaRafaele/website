@@ -12,7 +12,7 @@ Os Workspaces são uma nova forma de configurar a arquitetura do seu pacote, dis
 
 - Suas dependências podem ser vinculadas entre si, o que significa que seus espaços de trabalho podem depender uns dos outros, sempre utilizando o código mais atualizado disponível. Este é um mecanismo melhor que o `yarn link`, pois afeta apenas a árvore do seu workspace, em vez de todo o seu sistema.
 
-- Todas as dependências do seu projeto serão instaladas juntas, dando ao Yarn mais liberdade para otimizá-las melhor.
+- Todas as dependências do seu projeto serão instaladas juntas, dando ao Yarn mais liberdade para otimizá-las da melhor forma.
 
 - O Yarn usará um único arquivo de bloqueio (lockfile) em vez de um diferente para cada projeto, resultando em menos conflitos e revisões mais fáceis.
 
